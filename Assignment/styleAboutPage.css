@@ -1,0 +1,58 @@
+.topnav {
+    background-color: #c14646;
+    overflow: hidden;
+  }
+  
+ 
+  .topnav a {
+    float: left;
+    color: #62043b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #612168;
+    color: rgb(255, 255, 255);
+  }
+  
+  
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  img{
+    display: block;
+    margin: auto;
+    width: 50%;
+    border: #e600ff;
+    border-radius: 15%;
+
+  }
+
+  p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #83225b;
+  }
+  body {
+    background-image:url("https://wallpapers.com/images/hd/red-texture-pictures-0cd1isola9499j86.jpg");
+  }
+
+  h2 {
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #83225b;
+  }
+
+  footer{
+    text-align: center;
+    background-color: rgb(187, 0, 141);
+    color: aliceblue;
+  }
