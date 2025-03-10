@@ -1,4 +1,10 @@
-const contactForm = document.getElementById('contact-form');
+let person = prompt("Please enter your name", "Name");
+let text;
+if (person == null || person == "") {
+  text = "User cancelled the prompt.";
+} else {
+  text = "Hello " + person + "! How are you today?";
+}
 
 contactForm.addEventListener('submit', (event) => {
 
